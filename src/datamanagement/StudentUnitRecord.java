@@ -4,7 +4,10 @@ public class StudentUnitRecord implements IStudentUnitRecord {
 	private Integer sid;
 	private String uc;
 	private float a1, a2, ex;
-
+/**
+ * StudentUnitRecord function
+ * author: vuq
+ * **/
 	public StudentUnitRecord(Integer id, String code, float asg1, float asg2,
 			float exam) {
 		this.sid = id;
