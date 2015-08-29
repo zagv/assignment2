@@ -1,8 +1,12 @@
+
 package datamanagement;
 
 public class StudentUnitRecord implements IStudentUnitRecord {
-	private Integer sid;
+	
+private Integer sid;
+
 	private String uc;
+
 	private float a1, a2, ex;
 
 	public StudentUnitRecord(Integer id, String code, float asg1, float asg2,
