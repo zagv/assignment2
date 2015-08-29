@@ -1,5 +1,3 @@
-//This is added by wazeem
-
 package datamanagement;
 
 public class Unit implements IUnit {
