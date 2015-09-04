@@ -1,16 +1,16 @@
-# This program implements the record of the students
-Author: Anuj Nepal
-Date created : 28/08/2015
+// This program implements the record of the students
+// Author: Anuj Nepal
+// Date created : 28/08/2015
 package datamanagement;
-# student unit record is implementing from Istudentunitrecord
+// student unit record is implementing from Istudentunitrecord
 public class StudentUnitRecord implements IStudentUnitRecord {
-#sid is private and a integer	
+// sid is private and a integer	
 private Integer sid;
-# uc is a private and string
+// uc is a private and string
 	private String uc;
-# allocating a1,a2,ex as float 
+// allocating a1,a2,ex as float 
 	private float a1, a2, ex;
-#defining Student unit records 
+// defining Student unit records 
 	public StudentUnitRecord(Integer id, String code, float asg1, float asg2,
 			float exam) {
 		this.sid = id;
