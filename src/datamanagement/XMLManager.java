@@ -9,7 +9,7 @@ import java.io.IOException;
 import org.jdom.JDOMException;
 /***
  * This is XMLManager() function;
- * @author vuq
+ * @author vuquach123
  * */
 public class XMLManager {
 private static XMLManager self = null;
