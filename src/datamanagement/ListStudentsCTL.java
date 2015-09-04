@@ -1,4 +1,9 @@
 package datamanagement;
+/***
+ * This is ListStudentsCTL() function;
+ * This class is to list all of the Students of CSU
+ * @author vuq
+ * */
         public class ListStudentsCTL {
 private StudentManager sm;
 public ListStudentsCTL() {sm = StudentManager.get();}
