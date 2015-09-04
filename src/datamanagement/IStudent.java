@@ -6,7 +6,11 @@ package datamanagement;
  * @author vuq
  * */
 public interface IStudent {
-
+	/***
+	 * This is getID() function;
+	 * get ID of students
+	 * @author vuq
+	 * */
     public Integer getID();
 
     public String getFirstName();
