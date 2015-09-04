@@ -7,7 +7,10 @@ import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
 import java.io.IOException;
 import org.jdom.JDOMException;
-
+/***
+ * This is XMLManager() function;
+ * @author vuq
+ * */
 public class XMLManager {
 private static XMLManager self = null;
 
