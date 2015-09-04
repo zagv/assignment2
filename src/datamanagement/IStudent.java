@@ -1,5 +1,10 @@
 package datamanagement;
 
+/***
+ * This is IStudent() class;
+ * This class is to contain interface of Students Object
+ * @author vuq
+ * */
 public interface IStudent {
 
     public Integer getID();
