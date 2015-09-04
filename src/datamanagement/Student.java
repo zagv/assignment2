@@ -1,5 +1,9 @@
 package datamanagement;
-
+/***
+ * This is Student() Object;
+ * This class is to contain all of the information of Students
+ * @author vuq
+ * */
 public class Student implements IStudent {
     private Integer id; private String fn;
             private String ln;
