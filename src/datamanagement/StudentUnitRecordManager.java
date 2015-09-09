@@ -3,6 +3,11 @@ package datamanagement;
 import java.util.List;
 import org.jdom.*;
 
+/***
+ * StudentUnitRecordManager function
+ * author: vuq
+ * **/
+
 public class StudentUnitRecordManager {
 
 private static StudentUnitRecordManager s = null;

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 # To change this template, choose Tools | Templates
 # and open the template in the editor.
 XMLFILE = DataManagementDemo_DB.xml
+=======
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+XMLFILE = DataManagementDemo_DB.xml
+>>>>>>> 55c6aea4870f59535146f1244cb4a2b13f17345f

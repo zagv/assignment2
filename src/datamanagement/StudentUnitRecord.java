@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 package datamanagement;
 
 public class StudentUnitRecord implements IStudentUnitRecord {
@@ -9,6 +10,25 @@ private Integer sid;
 
 	private float a1, a2, ex;
 
+=======
+// This program implements the record of the students
+// Author: Anuj Nepal
+// Date created : 28/08/2015
+package datamanagement;
+// student unit record is implementing from Istudentunitrecord
+public class StudentUnitRecord implements IStudentUnitRecord {
+// sid is private and a integer	
+private Integer sid;
+// uc is a private and string
+	private String uc;
+// allocating a1,a2,ex as float 
+	private float a1, a2, ex;
+// defining Student unit records 
+/**
+ * StudentUnitRecord function
+ * author: vuq
+ * **/
+>>>>>>> origin/master
 	public StudentUnitRecord(Integer id, String code, float asg1, float asg2,
 			float exam) {
 		this.sid = id;
