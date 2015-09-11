@@ -24,10 +24,16 @@ public class StudentUnitRecord implements IStudentUnitRecord {
 		return sid;
 	}
 
+	/* (non-Javadoc)
+	 * @see datamanagement.IStudentUnitRecord#getUnitCode()
+	 */
 	public String getUnitCode() {
 		return uc;
 	}
 
+	/* (non-Javadoc)
+	 * @see datamanagement.IStudentUnitRecord#setAsg1(float)
+	 */
 	public void setAsg1(float a1) {
 		if (a1 < 0 ||
 			a1 > UnitManager.UM().getUnit(uc).getAsg1Weight()) {
