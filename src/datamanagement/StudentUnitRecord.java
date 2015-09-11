@@ -17,6 +17,9 @@ public class StudentUnitRecord implements IStudentUnitRecord {
 		this.setExam(exam);
 	}
 
+	/* (non-Javadoc)
+	 * @see datamanagement.IStudentUnitRecord#getStudentID()
+	 */
 	public Integer getStudentID() {
 		return sid;
 	}
