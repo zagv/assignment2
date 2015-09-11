@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 //Adding a comment.....
 //2nd comment
 
 package datamanagement;
-
-=======
-package datamanagement;
 // This program implements the record of the students
 // Author: Anuj Nepal
 // Date created : 28/08/2015
->>>>>>> origin/master
+
 public class Unit implements IUnit {
 	private String uc;
 	private String UN;
