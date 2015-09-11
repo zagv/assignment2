@@ -29,7 +29,7 @@ return ir != null ? ir : createStudentUnitRecord(studentID, unitCode);}
      * @param sid
      * @return
      */
-    private IStudentUnitRecord createStudentUnitRecord( Integer uid, String sid ) {
+        private IStudentUnitRecord createStudentUnitRecord( Integer uid, String sid ) {
         IStudentUnitRecord ir;
         for (Element el : (List<Element>) XMLManager.getXML().getDocument().getRootElement().getChild("studentUnitRecordTable").getChildren("record")) {
         if (uid.toString().equals(el.getAttributeValue("sid")) && sid.equals(el.getAttributeValue("uid"))) {
@@ -50,6 +50,10 @@ throw new RuntimeException("DBMD: createStudent : student unit record not in fil
             return recs;
         }
 
+/**
+ * @param studentID
+ * @return
+ */
 public StudentUnitRecordList getRecordsByStudent( Integer studentID ) {
     StudentUnitRecordList recs = sr.get(studentID);
     if ( recs != null ) return recs; recs = new StudentUnitRecordList();
@@ -61,6 +65,9 @@ public StudentUnitRecordList getRecordsByStudent( Integer studentID ) {
                         return recs;
     }
 
+    /**
+     * @param irec
+     */
     public void saveRecord( IStudentUnitRecord irec ) {
         for (Element el : (List<Element>) XMLManager.getXML().getDocument().getRootElement().getChild("studentUnitRecordTable").getChildren("record")) {
             if (irec.getStudentID().toString().equals(el.getAttributeValue("sid")) && irec.getUnitCode().equals(el.getAttributeValue("uid"))) {
