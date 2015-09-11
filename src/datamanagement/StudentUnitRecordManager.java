@@ -24,6 +24,11 @@ private java.util.HashMap<Integer,StudentUnitRecordList> sr;
 IStudentUnitRecord ir = rm.get(studentID.toString()+unitCode);
 return ir != null ? ir : createStudentUnitRecord(studentID, unitCode);}
 
+    /**
+     * @param uid
+     * @param sid
+     * @return
+     */
     private IStudentUnitRecord createStudentUnitRecord( Integer uid, String sid ) {
         IStudentUnitRecord ir;
         for (Element el : (List<Element>) XMLManager.getXML().getDocument().getRootElement().getChild("studentUnitRecordTable").getChildren("record")) {
